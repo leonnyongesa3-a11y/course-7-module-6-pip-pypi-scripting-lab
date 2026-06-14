@@ -21,7 +21,7 @@ def generate_log(data):
 
     with open(filename, 'w') as file:
         for entry in data:
-            file.write(f"{entry}\n")
+            file.write(str(entry) + "\n")
 
     # STEP 4: Print a confirmation message with the filename
 
