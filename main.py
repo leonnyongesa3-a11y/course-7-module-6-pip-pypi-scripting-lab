@@ -1,4 +1,4 @@
-from lib.generate_log import generate_log
+from generate_log import generate_log
 
 log_data = [
     "User logged in",
